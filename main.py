@@ -9,6 +9,6 @@ for i in profiles:
             print("{:<30}| {:<}".format(i,results[0]))
         except IndexError:
             print("{:<30}| {:<}".format(i,""))
-        except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError:
             print("{:<30}| {:<}".format(i,"ENCODING ERROR"))
 input("")
