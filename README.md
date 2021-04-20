@@ -1,2 +1,2 @@
-# Findfindwifipassword
-To find the wifi password of known connected wifi
+# Findwifipassword
+To find the wifi password of known wifi networks
